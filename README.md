@@ -1,5 +1,5 @@
 # projet-cwa-gl-patisserie
-# projet DAW
+
 ### Décembre 2022
 Objet : créer une application web d’un site commercial de vente d’un produit : à vous
 de choisir quel produit (pizzas, fruits, matériel informatique ou mobile, ...) 
