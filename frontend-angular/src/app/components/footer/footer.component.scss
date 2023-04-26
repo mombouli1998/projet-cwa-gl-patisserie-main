@@ -1,0 +1,92 @@
+.footer{
+    background-color: #b39ddb;
+    color: white;
+    text-transform: capitalize;
+    padding: 50px;
+    font-size: 85%;
+    margin-left: 9px;
+    margin-right: 9px;   
+    border-radius: 30px;
+    text-align: center; 
+    margin-top: 25px; 
+
+    &__columns{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    &__products{
+        text-align: left;
+    }
+
+    &__addresse{
+        text-align: left;
+    }
+
+    &__time{
+        text-align: left;
+    }
+
+    &__contact{
+        text-align: left;
+    }
+}
+.footer,h3{
+    font-weight:900;
+}
+.f-column{
+    min-width: 250px;
+    //margin-bottom: 20px;
+}
+
+.footer .f1{
+    flex-basis: 30%;
+    float: left;
+}
+
+.footer .f2{
+    flex: 1;
+    text-align: center;
+    float: left;
+}
+ .f3{
+    flex: 1;
+    text-align: center;
+    float: left;
+}
+
+.footer .f3,.footer .f4{
+    flex-basis: 10%;
+    text-align: right;
+
+}
+
+.app-logo{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+
+    img{
+        width: 30px;
+        float: right;
+        margin-right: 10px;
+        margin-top: 15px;
+    }
+}
+
+ul,li{
+    list-style: none;
+    text-align: left;
+}
+tr{
+    margin: 0;
+    padding: 0;
+}
+
+.marge{
+    margin-top: 10px;
+}
+.outside{
+    background-color: rgb(230, 227, 227);
+}
