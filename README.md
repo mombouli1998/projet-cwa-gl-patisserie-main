@@ -1,9 +1,10 @@
 # projet-cwa-gl-patisserie
 # projet DAW
 ### Décembre 2022
-Objet :
+Objet : créer une application web d’un site commercial de vente d’un produit : à vous
+de choisir quel produit (pizzas, fruits, matériel informatique ou mobile, ...) 
 ### Sujet
-Le travail consiste à réaliser un site de formation destinés à des apprenants / étudiants.
+Le travail consiste à réaliser un site commercial sous forme d’application web
 
 ### Partie Génie logiciel 
  Voici une proposition des différentes étapes du projet (qu’il est vivement conseillé de développer grâce à
@@ -38,3 +39,29 @@ problème) et vous donnerez le modèle conceptuel des données (si vous utilisez
  - pour réaliser l’interface web et la conservation des données,
  - dans le cadre du Génie Logiciel (GL) : avantages/inconvénients des outils choisis,
  difficultés rencontrées (organisation du groupe), améliorations à envisager
+
+
+### Partie Programmation
+
+Descriptif du contexte et travail à réaliser :
+### Fonctionnalités
+L’application est composée de deux parties :
+    • La partie Front end avec le framework Angular
+    • La partie Backend (optionnelle) qui permet de traiter les données avec une base de
+données. Vous pouvez aussi gérer les données avec des fichiers JSON.
+### Consignes techniques
+L’application d’e-commerce peut être structurée avec trois modules :
+    • Module racine créé par agular CLI
+    • Module recherche pour sélectionner les produits selon des critères de recherche
+    • Module Panier, qui permet de gérer le contenu du panier
+    • Le composant d’authentification dans le module principal gère l’authentification de
+l’internaute
+    •  Un composant par type de recherche dans le module recherche.
+
+### Bien expliquer les différents concepts dans votre projet :
+    • Les différents composants
+    • Databinding, les directives.
+    • La communication
+    • Les services
+    • Les routes internes
+10 au plus tard.
