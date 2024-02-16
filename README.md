@@ -1,67 +1,18 @@
-# projet-cwa-gl-patisserie
+Le projet vise à créer une application web pour un site commercial de vente de produits en groupe. Nous utiliserons Angular CLI pour le développement du frontend et un serveur en ligne Azure pour le backend. Voici les étapes que nous suivrons :
 
-### Décembre 2022
-Objet : créer une application web d’un site commercial de vente d’un produit : à vous
-de choisir quel produit (pizzas, fruits, matériel informatique ou mobile, ...) 
-### Sujet
-Le travail consiste à réaliser un site commercial sous forme d’application web
+Conception de l'architecture de l'application :
 
-### Partie Génie logiciel 
- Voici une proposition des différentes étapes du projet (qu’il est vivement conseillé de développer grâce à
-une approche itérative, en commençant par un noyau de fonctionnalités très simples) :
+Nous allons concevoir une architecture client-serveur où Angular CLI sera utilisé pour le frontend et un serveur Azure pour le backend.
+Le frontend sera responsable de l'interface utilisateur, tandis que le backend gérera la logique métier, la gestion des utilisateurs et la communication avec la base de données.
 
-1) Planification et gestion collaborative du projet
-  Comme vous travaillerez en groupe, on vous demandera :
-    * de choisir un outil pour faire de la gestion de projet (diagrammes de Pert et de Gantt),
-    * d’utiliser git (pour gérer les versions de votre code et permettre un travail collaboratif) et
-éventuellement un outil d’intégration continue comme Jenkins ou GitLab CI.
+Développement de la partie Frontend avec Angular CLI :
 
-2) Analyse des besoins et modélisation
-On vous demandera un dossier d’analyse des besoins, comprenant le diagramme UML (réalisé avec le
-logiciel de votre choix) des cas d’utilisation ainsi qu’une description détaillée de ces cas sous forme de
-scenarii.
+Utilisation d'Angular CLI pour créer les composants, les services, les modules et les routes nécessaires pour l'application frontend.
+Conception de l'interface utilisateur en utilisant HTML, CSS et Angular Material pour une expérience utilisateur moderne et réactive.
+Mise en œuvre des fonctionnalités telles que la navigation entre les pages, l'affichage des produits, la gestion du panier d'achat, etc.
 
-3) Spécification fonctionnelle et tests
-A partir des scenarii identifiés précédemment, vous les détaillerez grâce à des diagrammes de séquence.
-Pour chaque scenario, vous devez faire une étude des tests fonctionnels à réaliser (tests boîte noire
-réalisables avec les méthodes des classes d’équivalence et des tests aux limites). Vous pourrez enfin réaliser
-des maquettes de l’IHM envisagée.
+Développement de la partie Backend sur Azure :
 
-4) Conception
-Vous terminerez la modélisation UML en réalisant au moins le diagramme de classes (et
-éventuellement les diagrammes d’activités et d’états-transition, si jugé utile à la compréhension du
-problème) et vous donnerez le modèle conceptuel des données (si vous utilisez 1 base de données).
-
-### Autres
-   soutenances (9 – 12/01/2023) : préparer une présentation de 15 min comprenant :
- * une présentation du travail réalisé (avec démo),
- * un retour sur les outils utilisés :
- - pour réaliser l’interface web et la conservation des données,
- - dans le cadre du Génie Logiciel (GL) : avantages/inconvénients des outils choisis,
- difficultés rencontrées (organisation du groupe), améliorations à envisager
-
-
-### Partie Programmation
-
-Descriptif du contexte et travail à réaliser :
-### Fonctionnalités
-L’application est composée de deux parties :
-    • La partie Front end avec le framework Angular
-    • La partie Backend (optionnelle) qui permet de traiter les données avec une base de
-données. Vous pouvez aussi gérer les données avec des fichiers JSON.
-### Consignes techniques
-L’application d’e-commerce peut être structurée avec trois modules :
-    • Module racine créé par agular CLI
-    • Module recherche pour sélectionner les produits selon des critères de recherche
-    • Module Panier, qui permet de gérer le contenu du panier
-    • Le composant d’authentification dans le module principal gère l’authentification de
-l’internaute
-    •  Un composant par type de recherche dans le module recherche.
-
-### Bien expliquer les différents concepts dans votre projet :
-    • Les différents composants
-    • Databinding, les directives.
-    • La communication
-    • Les services
-    • Les routes internes
-10 au plus tard.
+Configuration d'un serveur Azure pour héberger notre backend. Nous pouvons utiliser des services tels que Azure App Service, Azure Functions ou Azure VM selon les besoins de l'application.
+Implémentation des API RESTful pour fournir des points de terminaison pour les opérations CRUD (Create, Read, Update, Delete) sur les produits, les utilisateurs, les commandes, etc.
+Utilisation de Spring Boot ou d'autres frameworks backend pour Java, ou Express.js pour Node.js, selon les préférences et les compétences de l'équipe de développement.
